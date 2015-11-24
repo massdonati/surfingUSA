@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		562E8F2C1C044D64001F3B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F2B1C044D64001F3B2F /* AppDelegate.swift */; };
+		562E8F2E1C044D64001F3B2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F2D1C044D64001F3B2F /* ViewController.swift */; };
+		562E8F311C044D64001F3B2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562E8F2F1C044D64001F3B2F /* Main.storyboard */; };
+		562E8F341C044D64001F3B2F /* SurfingUSA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F321C044D64001F3B2F /* SurfingUSA.xcdatamodeld */; };
+		562E8F361C044D64001F3B2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562E8F351C044D64001F3B2F /* Assets.xcassets */; };
+		562E8F391C044D64001F3B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562E8F371C044D64001F3B2F /* LaunchScreen.storyboard */; };
+		562E8F441C044D64001F3B2F /* SurfingUSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F431C044D64001F3B2F /* SurfingUSATests.swift */; };
+		562E8F4F1C044D64001F3B2F /* SurfingUSAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F4E1C044D64001F3B2F /* SurfingUSAUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		562E8F401C044D64001F3B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 562E8F201C044D64001F3B2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562E8F271C044D64001F3B2F;
+			remoteInfo = SurfingUSA;
+		};
+		562E8F4B1C044D64001F3B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 562E8F201C044D64001F3B2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 562E8F271C044D64001F3B2F;
+			remoteInfo = SurfingUSA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		562E8F281C044D64001F3B2F /* SurfingUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfingUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		562E8F2B1C044D64001F3B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		562E8F2D1C044D64001F3B2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		562E8F301C044D64001F3B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		562E8F331C044D64001F3B2F /* SurfingUSA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SurfingUSA.xcdatamodel; sourceTree = "<group>"; };
+		562E8F351C044D64001F3B2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		562E8F381C044D64001F3B2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		562E8F3A1C044D64001F3B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562E8F3F1C044D64001F3B2F /* SurfingUSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurfingUSATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		562E8F431C044D64001F3B2F /* SurfingUSATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfingUSATests.swift; sourceTree = "<group>"; };
+		562E8F451C044D64001F3B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562E8F4A1C044D64001F3B2F /* SurfingUSAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurfingUSAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		562E8F4E1C044D64001F3B2F /* SurfingUSAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfingUSAUITests.swift; sourceTree = "<group>"; };
+		562E8F501C044D64001F3B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		562E8F251C044D64001F3B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562E8F3C1C044D64001F3B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562E8F471C044D64001F3B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		562E8F1F1C044D64001F3B2F = {
+			isa = PBXGroup;
+			children = (
+				562E8F2A1C044D64001F3B2F /* SurfingUSA */,
+				562E8F421C044D64001F3B2F /* SurfingUSATests */,
+				562E8F4D1C044D64001F3B2F /* SurfingUSAUITests */,
+				562E8F291C044D64001F3B2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		562E8F291C044D64001F3B2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				562E8F281C044D64001F3B2F /* SurfingUSA.app */,
+				562E8F3F1C044D64001F3B2F /* SurfingUSATests.xctest */,
+				562E8F4A1C044D64001F3B2F /* SurfingUSAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		562E8F2A1C044D64001F3B2F /* SurfingUSA */ = {
+			isa = PBXGroup;
+			children = (
+				562E8F2B1C044D64001F3B2F /* AppDelegate.swift */,
+				562E8F2D1C044D64001F3B2F /* ViewController.swift */,
+				562E8F2F1C044D64001F3B2F /* Main.storyboard */,
+				562E8F351C044D64001F3B2F /* Assets.xcassets */,
+				562E8F371C044D64001F3B2F /* LaunchScreen.storyboard */,
+				562E8F3A1C044D64001F3B2F /* Info.plist */,
+				562E8F321C044D64001F3B2F /* SurfingUSA.xcdatamodeld */,
+			);
+			path = SurfingUSA;
+			sourceTree = "<group>";
+		};
+		562E8F421C044D64001F3B2F /* SurfingUSATests */ = {
+			isa = PBXGroup;
+			children = (
+				562E8F431C044D64001F3B2F /* SurfingUSATests.swift */,
+				562E8F451C044D64001F3B2F /* Info.plist */,
+			);
+			path = SurfingUSATests;
+			sourceTree = "<group>";
+		};
+		562E8F4D1C044D64001F3B2F /* SurfingUSAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				562E8F4E1C044D64001F3B2F /* SurfingUSAUITests.swift */,
+				562E8F501C044D64001F3B2F /* Info.plist */,
+			);
+			path = SurfingUSAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		562E8F271C044D64001F3B2F /* SurfingUSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562E8F531C044D64001F3B2F /* Build configuration list for PBXNativeTarget "SurfingUSA" */;
+			buildPhases = (
+				562E8F241C044D64001F3B2F /* Sources */,
+				562E8F251C044D64001F3B2F /* Frameworks */,
+				562E8F261C044D64001F3B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurfingUSA;
+			productName = SurfingUSA;
+			productReference = 562E8F281C044D64001F3B2F /* SurfingUSA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		562E8F3E1C044D64001F3B2F /* SurfingUSATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562E8F561C044D64001F3B2F /* Build configuration list for PBXNativeTarget "SurfingUSATests" */;
+			buildPhases = (
+				562E8F3B1C044D64001F3B2F /* Sources */,
+				562E8F3C1C044D64001F3B2F /* Frameworks */,
+				562E8F3D1C044D64001F3B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				562E8F411C044D64001F3B2F /* PBXTargetDependency */,
+			);
+			name = SurfingUSATests;
+			productName = SurfingUSATests;
+			productReference = 562E8F3F1C044D64001F3B2F /* SurfingUSATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		562E8F491C044D64001F3B2F /* SurfingUSAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 562E8F591C044D64001F3B2F /* Build configuration list for PBXNativeTarget "SurfingUSAUITests" */;
+			buildPhases = (
+				562E8F461C044D64001F3B2F /* Sources */,
+				562E8F471C044D64001F3B2F /* Frameworks */,
+				562E8F481C044D64001F3B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				562E8F4C1C044D64001F3B2F /* PBXTargetDependency */,
+			);
+			name = SurfingUSAUITests;
+			productName = SurfingUSAUITests;
+			productReference = 562E8F4A1C044D64001F3B2F /* SurfingUSAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		562E8F201C044D64001F3B2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Team84;
+				TargetAttributes = {
+					562E8F271C044D64001F3B2F = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					562E8F3E1C044D64001F3B2F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 562E8F271C044D64001F3B2F;
+					};
+					562E8F491C044D64001F3B2F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 562E8F271C044D64001F3B2F;
+					};
+				};
+			};
+			buildConfigurationList = 562E8F231C044D64001F3B2F /* Build configuration list for PBXProject "SurfingUSA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 562E8F1F1C044D64001F3B2F;
+			productRefGroup = 562E8F291C044D64001F3B2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				562E8F271C044D64001F3B2F /* SurfingUSA */,
+				562E8F3E1C044D64001F3B2F /* SurfingUSATests */,
+				562E8F491C044D64001F3B2F /* SurfingUSAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		562E8F261C044D64001F3B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562E8F391C044D64001F3B2F /* LaunchScreen.storyboard in Resources */,
+				562E8F361C044D64001F3B2F /* Assets.xcassets in Resources */,
+				562E8F311C044D64001F3B2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562E8F3D1C044D64001F3B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562E8F481C044D64001F3B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		562E8F241C044D64001F3B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562E8F2E1C044D64001F3B2F /* ViewController.swift in Sources */,
+				562E8F341C044D64001F3B2F /* SurfingUSA.xcdatamodeld in Sources */,
+				562E8F2C1C044D64001F3B2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562E8F3B1C044D64001F3B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562E8F441C044D64001F3B2F /* SurfingUSATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562E8F461C044D64001F3B2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562E8F4F1C044D64001F3B2F /* SurfingUSAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		562E8F411C044D64001F3B2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 562E8F271C044D64001F3B2F /* SurfingUSA */;
+			targetProxy = 562E8F401C044D64001F3B2F /* PBXContainerItemProxy */;
+		};
+		562E8F4C1C044D64001F3B2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 562E8F271C044D64001F3B2F /* SurfingUSA */;
+			targetProxy = 562E8F4B1C044D64001F3B2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		562E8F2F1C044D64001F3B2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				562E8F301C044D64001F3B2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		562E8F371C044D64001F3B2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				562E8F381C044D64001F3B2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		562E8F511C044D64001F3B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		562E8F521C044D64001F3B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		562E8F541C044D64001F3B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SurfingUSA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Team84.SurfingUSA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		562E8F551C044D64001F3B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SurfingUSA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Team84.SurfingUSA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		562E8F571C044D64001F3B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SurfingUSATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Team84.SurfingUSATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurfingUSA.app/SurfingUSA";
+			};
+			name = Debug;
+		};
+		562E8F581C044D64001F3B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SurfingUSATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Team84.SurfingUSATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SurfingUSA.app/SurfingUSA";
+			};
+			name = Release;
+		};
+		562E8F5A1C044D64001F3B2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SurfingUSAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Team84.SurfingUSAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SurfingUSA;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		562E8F5B1C044D64001F3B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SurfingUSAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Team84.SurfingUSAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SurfingUSA;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		562E8F231C044D64001F3B2F /* Build configuration list for PBXProject "SurfingUSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562E8F511C044D64001F3B2F /* Debug */,
+				562E8F521C044D64001F3B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		562E8F531C044D64001F3B2F /* Build configuration list for PBXNativeTarget "SurfingUSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562E8F541C044D64001F3B2F /* Debug */,
+				562E8F551C044D64001F3B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		562E8F561C044D64001F3B2F /* Build configuration list for PBXNativeTarget "SurfingUSATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562E8F571C044D64001F3B2F /* Debug */,
+				562E8F581C044D64001F3B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		562E8F591C044D64001F3B2F /* Build configuration list for PBXNativeTarget "SurfingUSAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562E8F5A1C044D64001F3B2F /* Debug */,
+				562E8F5B1C044D64001F3B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		562E8F321C044D64001F3B2F /* SurfingUSA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				562E8F331C044D64001F3B2F /* SurfingUSA.xcdatamodel */,
+			);
+			currentVersion = 562E8F331C044D64001F3B2F /* SurfingUSA.xcdatamodel */;
+			path = SurfingUSA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 562E8F201C044D64001F3B2F /* Project object */;
+}
