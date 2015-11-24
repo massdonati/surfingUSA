@@ -15,6 +15,12 @@
 		562E8F391C044D64001F3B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562E8F371C044D64001F3B2F /* LaunchScreen.storyboard */; };
 		562E8F441C044D64001F3B2F /* SurfingUSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F431C044D64001F3B2F /* SurfingUSATests.swift */; };
 		562E8F4F1C044D64001F3B2F /* SurfingUSAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F4E1C044D64001F3B2F /* SurfingUSAUITests.swift */; };
+		562E8F5D1C045085001F3B2F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F5C1C045085001F3B2F /* APIManager.swift */; };
+		562E8F5E1C045085001F3B2F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F5C1C045085001F3B2F /* APIManager.swift */; };
+		562E8F611C046943001F3B2F /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F601C046942001F3B2F /* Spot.swift */; };
+		562E8F621C046943001F3B2F /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F601C046942001F3B2F /* Spot.swift */; };
+		562E8F641C046985001F3B2F /* County.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F631C046985001F3B2F /* County.swift */; };
+		562E8F651C046985001F3B2F /* County.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F631C046985001F3B2F /* County.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,9 @@
 		562E8F4A1C044D64001F3B2F /* SurfingUSAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurfingUSAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		562E8F4E1C044D64001F3B2F /* SurfingUSAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfingUSAUITests.swift; sourceTree = "<group>"; };
 		562E8F501C044D64001F3B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562E8F5C1C045085001F3B2F /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		562E8F601C046942001F3B2F /* Spot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		562E8F631C046985001F3B2F /* County.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = County.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +108,7 @@
 		562E8F2A1C044D64001F3B2F /* SurfingUSA */ = {
 			isa = PBXGroup;
 			children = (
+				562E8F5F1C046927001F3B2F /* Model */,
 				562E8F2B1C044D64001F3B2F /* AppDelegate.swift */,
 				562E8F2D1C044D64001F3B2F /* ViewController.swift */,
 				562E8F2F1C044D64001F3B2F /* Main.storyboard */,
@@ -106,6 +116,7 @@
 				562E8F371C044D64001F3B2F /* LaunchScreen.storyboard */,
 				562E8F3A1C044D64001F3B2F /* Info.plist */,
 				562E8F321C044D64001F3B2F /* SurfingUSA.xcdatamodeld */,
+				562E8F5C1C045085001F3B2F /* APIManager.swift */,
 			);
 			path = SurfingUSA;
 			sourceTree = "<group>";
@@ -126,6 +137,15 @@
 				562E8F501C044D64001F3B2F /* Info.plist */,
 			);
 			path = SurfingUSAUITests;
+			sourceTree = "<group>";
+		};
+		562E8F5F1C046927001F3B2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				562E8F601C046942001F3B2F /* Spot.swift */,
+				562E8F631C046985001F3B2F /* County.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				562E8F5D1C045085001F3B2F /* APIManager.swift in Sources */,
 				562E8F2E1C044D64001F3B2F /* ViewController.swift in Sources */,
+				562E8F611C046943001F3B2F /* Spot.swift in Sources */,
+				562E8F641C046985001F3B2F /* County.swift in Sources */,
 				562E8F341C044D64001F3B2F /* SurfingUSA.xcdatamodeld in Sources */,
 				562E8F2C1C044D64001F3B2F /* AppDelegate.swift in Sources */,
 			);
@@ -269,6 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				562E8F5E1C045085001F3B2F /* APIManager.swift in Sources */,
+				562E8F651C046985001F3B2F /* County.swift in Sources */,
+				562E8F621C046943001F3B2F /* Spot.swift in Sources */,
 				562E8F441C044D64001F3B2F /* SurfingUSATests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
