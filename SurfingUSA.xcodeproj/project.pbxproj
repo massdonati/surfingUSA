@@ -17,10 +17,10 @@
 		562E8F4F1C044D64001F3B2F /* SurfingUSAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F4E1C044D64001F3B2F /* SurfingUSAUITests.swift */; };
 		562E8F5D1C045085001F3B2F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F5C1C045085001F3B2F /* APIManager.swift */; };
 		562E8F5E1C045085001F3B2F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F5C1C045085001F3B2F /* APIManager.swift */; };
-		562E8F611C046943001F3B2F /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F601C046942001F3B2F /* Spot.swift */; };
-		562E8F621C046943001F3B2F /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F601C046942001F3B2F /* Spot.swift */; };
-		562E8F641C046985001F3B2F /* County.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F631C046985001F3B2F /* County.swift */; };
-		562E8F651C046985001F3B2F /* County.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F631C046985001F3B2F /* County.swift */; };
+		F62C89FD1C064E7400B6008B /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C89FA1C064E7400B6008B /* Spot.swift */; };
+		F62C89FE1C064E7400B6008B /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C89FA1C064E7400B6008B /* Spot.swift */; };
+		F62C8A031C06668E00B6008B /* Spot+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C8A021C06668E00B6008B /* Spot+CoreDataProperties.swift */; };
+		F62C8A041C06668E00B6008B /* Spot+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C8A021C06668E00B6008B /* Spot+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +56,8 @@
 		562E8F4E1C044D64001F3B2F /* SurfingUSAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfingUSAUITests.swift; sourceTree = "<group>"; };
 		562E8F501C044D64001F3B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		562E8F5C1C045085001F3B2F /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
-		562E8F601C046942001F3B2F /* Spot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
-		562E8F631C046985001F3B2F /* County.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = County.swift; sourceTree = "<group>"; };
+		F62C89FA1C064E7400B6008B /* Spot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Spot.swift; path = ../Spot.swift; sourceTree = "<group>"; };
+		F62C8A021C06668E00B6008B /* Spot+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Spot+CoreDataProperties.swift"; path = "../Spot+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +142,8 @@
 		562E8F5F1C046927001F3B2F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				562E8F601C046942001F3B2F /* Spot.swift */,
-				562E8F631C046985001F3B2F /* County.swift */,
+				F62C8A021C06668E00B6008B /* Spot+CoreDataProperties.swift */,
+				F62C89FA1C064E7400B6008B /* Spot.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -281,8 +281,8 @@
 			files = (
 				562E8F5D1C045085001F3B2F /* APIManager.swift in Sources */,
 				562E8F2E1C044D64001F3B2F /* ViewController.swift in Sources */,
-				562E8F611C046943001F3B2F /* Spot.swift in Sources */,
-				562E8F641C046985001F3B2F /* County.swift in Sources */,
+				F62C89FD1C064E7400B6008B /* Spot.swift in Sources */,
+				F62C8A031C06668E00B6008B /* Spot+CoreDataProperties.swift in Sources */,
 				562E8F341C044D64001F3B2F /* SurfingUSA.xcdatamodeld in Sources */,
 				562E8F2C1C044D64001F3B2F /* AppDelegate.swift in Sources */,
 			);
@@ -293,8 +293,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				562E8F5E1C045085001F3B2F /* APIManager.swift in Sources */,
-				562E8F651C046985001F3B2F /* County.swift in Sources */,
-				562E8F621C046943001F3B2F /* Spot.swift in Sources */,
+				F62C8A041C06668E00B6008B /* Spot+CoreDataProperties.swift in Sources */,
+				F62C89FE1C064E7400B6008B /* Spot.swift in Sources */,
 				562E8F441C044D64001F3B2F /* SurfingUSATests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +514,7 @@
 				562E8F551C044D64001F3B2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		562E8F561C044D64001F3B2F /* Build configuration list for PBXNativeTarget "SurfingUSATests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				562E8F581C044D64001F3B2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		562E8F591C044D64001F3B2F /* Build configuration list for PBXNativeTarget "SurfingUSAUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				562E8F5B1C044D64001F3B2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
