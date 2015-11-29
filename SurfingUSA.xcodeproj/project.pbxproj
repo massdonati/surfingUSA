@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56142C801C0A6338001AF0AC /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56142C7F1C0A6338001AF0AC /* Operation.swift */; };
+		56142C821C0A63A9001AF0AC /* GetCountiesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56142C811C0A63A9001AF0AC /* GetCountiesOperation.swift */; };
+		56142C841C0A64BE001AF0AC /* GetAllSpotsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56142C831C0A64BE001AF0AC /* GetAllSpotsOperation.swift */; };
+		56142C861C0A6F02001AF0AC /* FetchCountyListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56142C851C0A6F02001AF0AC /* FetchCountyListOperation.swift */; };
 		562E8F2C1C044D64001F3B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F2B1C044D64001F3B2F /* AppDelegate.swift */; };
 		562E8F2E1C044D64001F3B2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562E8F2D1C044D64001F3B2F /* ViewController.swift */; };
 		562E8F311C044D64001F3B2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562E8F2F1C044D64001F3B2F /* Main.storyboard */; };
@@ -41,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56142C7F1C0A6338001AF0AC /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		56142C811C0A63A9001AF0AC /* GetCountiesOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCountiesOperation.swift; sourceTree = "<group>"; };
+		56142C831C0A64BE001AF0AC /* GetAllSpotsOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAllSpotsOperation.swift; sourceTree = "<group>"; };
+		56142C851C0A6F02001AF0AC /* FetchCountyListOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchCountyListOperation.swift; sourceTree = "<group>"; };
 		562E8F281C044D64001F3B2F /* SurfingUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfingUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		562E8F2B1C044D64001F3B2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		562E8F2D1C044D64001F3B2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +93,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56142C7E1C0A630C001AF0AC /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				56142C7F1C0A6338001AF0AC /* Operation.swift */,
+				56142C811C0A63A9001AF0AC /* GetCountiesOperation.swift */,
+				56142C831C0A64BE001AF0AC /* GetAllSpotsOperation.swift */,
+				56142C851C0A6F02001AF0AC /* FetchCountyListOperation.swift */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
 		562E8F1F1C044D64001F3B2F = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +127,7 @@
 		562E8F2A1C044D64001F3B2F /* SurfingUSA */ = {
 			isa = PBXGroup;
 			children = (
+				56142C7E1C0A630C001AF0AC /* Operations */,
 				562E8F5F1C046927001F3B2F /* Model */,
 				562E8F2B1C044D64001F3B2F /* AppDelegate.swift */,
 				562E8F2D1C044D64001F3B2F /* ViewController.swift */,
@@ -279,11 +299,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56142C841C0A64BE001AF0AC /* GetAllSpotsOperation.swift in Sources */,
 				562E8F5D1C045085001F3B2F /* APIManager.swift in Sources */,
+				56142C801C0A6338001AF0AC /* Operation.swift in Sources */,
 				562E8F2E1C044D64001F3B2F /* ViewController.swift in Sources */,
 				F62C89FD1C064E7400B6008B /* Spot.swift in Sources */,
 				F62C8A031C06668E00B6008B /* Spot+CoreDataProperties.swift in Sources */,
 				562E8F341C044D64001F3B2F /* SurfingUSA.xcdatamodeld in Sources */,
+				56142C821C0A63A9001AF0AC /* GetCountiesOperation.swift in Sources */,
+				56142C861C0A6F02001AF0AC /* FetchCountyListOperation.swift in Sources */,
 				562E8F2C1C044D64001F3B2F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

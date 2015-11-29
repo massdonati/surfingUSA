@@ -38,11 +38,8 @@ class APIManager: NSObject {
     }
     
     internal func getSpots(completionBlock: ([Spot])->(Void)) {
-        let session = NSURLSession.sharedSession()
-        let spotsURL = NSURL(string: hostNameURL + allSpotsURL)!
 
-        session.dataTaskWithURL(spotsURL) {
-            (data, response, error) -> Void in
+        performRequest(hostNameURL + allSpotsURL, completionBlock: { (data, response, error) -> Void in
             guard let data = data where error == nil else {
                 print("there was an error")
                 return;
@@ -63,7 +60,7 @@ class APIManager: NSObject {
             } catch let myJSONError {
                 print(myJSONError)
             }
-        }.resume()
+        })
     }
     
     private func prepare(county: String) -> String {

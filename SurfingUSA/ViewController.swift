@@ -13,49 +13,37 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     @IBOutlet weak var tableView: UITableView!
     
-    var spotsArray = [String]()
-    
+    var countiesArray = [String]()
+    let operationQueue = NSOperationQueue()
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.tableFooterView = UIView()
-        let fetchRequest = NSFetchRequest(entityName: "Spot")
         
-        do {
-            let spots = try AppDelegate.sharedDelegate.managedObjectContext.executeFetchRequest(fetchRequest) as! [Spot]
-            if spots.count == 0 {
-                APIManager.sharedManager.getSpots { (spots) -> (Void) in
-                    self.spotsArray = spots.reduce([], combine:{counties, spot in
-                        if counties.contains(spot.county!) {
-                            return counties
-                        }
-                        return counties + [spot.county!]
-                        })
-                    dispatch_async(dispatch_get_main_queue(), { () -> Void in
-                        self.tableView.reloadData()
-                    })
-                }
+        let countyListOperation = GetCountiesOperation { (counties, error) -> Void in
+            if let error = error {
+                print("Error getting county list \(error)")
+                return
+            }
+            
+            if let counties = counties  {
+                self.countiesArray = counties
+                dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                    self.tableView.reloadData()
+                })
             }
         }
-        catch let fetchRequestError {
-            print(fetchRequestError)
-        }
-        
+        operationQueue.addOperation(countyListOperation)
 
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        APIManager.sharedManager.getSpots(self.spotsArray[indexPath.row]) { (spots) -> (Void) in
+        APIManager.sharedManager.getSpots(self.countiesArray[indexPath.row]) { (spots) -> (Void) in
             print(spots)
         }
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return spotsArray.count
+        return countiesArray.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -63,7 +51,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let cell = tableView.dequeueReusableCellWithIdentifier("spotCell", forIndexPath: indexPath)
         
-        cell.textLabel?.text = spotsArray[indexPath.row]
+        cell.textLabel?.text = countiesArray[indexPath.row]
         
         return cell
         

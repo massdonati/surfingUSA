@@ -16,8 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     static let sharedDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        let paths = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)
-        print(paths[0])
+//        let paths = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)
+//        print(paths[0])
         return true
     }
 
