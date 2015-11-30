@@ -25,6 +25,7 @@
 		F62C89FE1C064E7400B6008B /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C89FA1C064E7400B6008B /* Spot.swift */; };
 		F62C8A031C06668E00B6008B /* Spot+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C8A021C06668E00B6008B /* Spot+CoreDataProperties.swift */; };
 		F62C8A041C06668E00B6008B /* Spot+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C8A021C06668E00B6008B /* Spot+CoreDataProperties.swift */; };
+		F6F8B2161C0CC37C006B7BC0 /* SpotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F8B2151C0CC37C006B7BC0 /* SpotsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		562E8F5C1C045085001F3B2F /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		F62C89FA1C064E7400B6008B /* Spot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Spot.swift; path = ../Spot.swift; sourceTree = "<group>"; };
 		F62C8A021C06668E00B6008B /* Spot+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Spot+CoreDataProperties.swift"; path = "../Spot+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F6F8B2151C0CC37C006B7BC0 /* SpotsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				562E8F3A1C044D64001F3B2F /* Info.plist */,
 				562E8F321C044D64001F3B2F /* SurfingUSA.xcdatamodeld */,
 				562E8F5C1C045085001F3B2F /* APIManager.swift */,
+				F6F8B2151C0CC37C006B7BC0 /* SpotsViewController.swift */,
 			);
 			path = SurfingUSA;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56142C841C0A64BE001AF0AC /* GetAllSpotsOperation.swift in Sources */,
+				F6F8B2161C0CC37C006B7BC0 /* SpotsViewController.swift in Sources */,
 				562E8F5D1C045085001F3B2F /* APIManager.swift in Sources */,
 				56142C801C0A6338001AF0AC /* Operation.swift in Sources */,
 				562E8F2E1C044D64001F3B2F /* ViewController.swift in Sources */,
